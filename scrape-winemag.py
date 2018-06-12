@@ -1,3 +1,5 @@
+##Thanks to zackthoutt for this script.
+
 from bs4 import BeautifulSoup
 from multiprocessing.dummy import Pool
 import os
@@ -7,7 +9,6 @@ import requests
 import re
 import json
 import glob
-
 
 BASE_URL = 'http://www.winemag.com/?s=&drink_type=wine&page={0}'
 session = requests.Session()
@@ -22,7 +23,6 @@ UNKNOWN_FORMAT = 0
 APPELLATION_FORMAT_0 = 1
 APPELLATION_FORMAT_1 = 2
 APPELLATION_FORMAT_2 = 3
-
 
 class Scraper():
     """Scraper for Winemag.com to collect wine reviews"""
