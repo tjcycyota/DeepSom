@@ -16,4 +16,8 @@ The files in this repo are structured as follows:
 | WordCloud, tf-idf, t-SNE | 03_DeepSom_Visualization.ipynb | |
 
 ## Outputs
-![alt text](https://github.com/tjcycyota/DeepSom/blob/master/tSNE_varietals.png)
+
+![tSNE varietals]
+
+![bokeh clustering plot]
+
