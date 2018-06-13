@@ -16,8 +16,12 @@ The files in this repo are structured as follows:
 | WordCloud, tf-idf, t-SNE | 03_DeepSom_Visualization.ipynb | |
 
 ## Outputs
+### Plot of common words used in wine reviews
+![tSNE varietals](https://github.com/tjcycyota/DeepSom/blob/master/visuals/tSNE_varietals.png)
 
-![tSNE varietals]
+### Bokeh plot of reviews, dots colored by varietal
+![bokeh clustering plot](https://github.com/tjcycyota/DeepSom/blob/master/visuals/Bokeh_plot.png)
 
-![bokeh clustering plot]
+### Word Cloud of most common words used in reviews of Cabernet Sauvignon
+![word cloud for cabernet sauvignon](https://github.com/tjcycyota/DeepSom/blob/master/visuals/wordcloud.png)
 
